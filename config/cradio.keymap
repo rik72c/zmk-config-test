@@ -34,9 +34,9 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-            &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
-            HRML(A,     S,          D,          F)          &kp G           &kp H       HRMR(J,     K,          L,          SQT)
-            &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH
+            &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
+            HRML(A,     R,          S,          T)          &kp G           &kp M       HRMR(N,     E,          I,          O)
+            &kp X       &kp C       &kp D       &kp V       &kp Z           &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH
                                                 &lt 2 TAB   &kp SPACE       &kp ENTER   &lt 1 BSPC
             >;
         };
